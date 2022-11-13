@@ -58,7 +58,7 @@ namespace Interface
         static void Main(string[] args)
         {
             Comp comp = new Comp();
-            comp.AddDevice(1. d);
+            comp.AddDevice(1, d);
             comp.CheckDisk(CD);
             comp.ShowDisk();
             comp.WriteInfo("Cd if inserted!");
